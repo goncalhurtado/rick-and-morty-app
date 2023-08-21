@@ -9,7 +9,7 @@ const CardCharacter = ({ character }) => {
   const { name, image, gender, species, status, location } = character;
   return (
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={image} />
+      <Card.Img variant="top" src={image} style={{ marginTop: "8px" }} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>
