@@ -8,6 +8,7 @@ import Characters from "./pages/Characters";
 import Episodes from "./pages/Episodes";
 import Form from "./pages/Form";
 import Home from "./pages/Home";
+import { getCharacters } from "./helpers/getCharacters";
 
 function App() {
   return (
